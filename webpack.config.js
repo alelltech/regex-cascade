@@ -24,10 +24,7 @@ module.exports = {
     umdNamedDefine: false,
   },
   // devtool: "source-map",
-  plugins: [
-    new webpack.BannerPlugin(fs.readFileSync("LICENSE", "utf8")),
-    new webpack.SourceMapDevToolPlugin({}),
-  ],
+  plugins: [new webpack.BannerPlugin(fs.readFileSync("LICENSE", "utf8"))],
 };
 
 // module.exports = {
