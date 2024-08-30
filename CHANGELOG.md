@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/alelltech/regex-cascade/compare/v1.0.4...v1.0.5) (2024-08-30)
+
+
+### Others
+
+* **release:** 1.0.4 ([8569bce](https://github.com/alelltech/regex-cascade/commit/8569bce4fb79e77a5bca52742bde8d58bcf71a4c))
+
 ### [1.0.4](https://github.com/alelltech/regex-cascade/compare/v1.0.3...v1.0.4) (2024-08-30)
 
 
