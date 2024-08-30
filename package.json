@@ -1,16 +1,16 @@
 {
   "name": "@alell/regex-cascade",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Alan S. Ferreira",
   "description": "Cascade multiple and nested Regex expressions.",
   "license": "MIT",
   "private": false,
   "main": "dist/index.js",
-  "types": "dist/index.js",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public",
     "main": "dist/index.js",
-    "types": "dist/index.js"
+    "types": "dist/index.d.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "pretest": "webpack build",
     "test": "mocha --require ts-node/register **/_suite.ts",
     "clean": "git clean -fdX",
+    "prebuild": "tsc",
     "build": "webpack build",
     "prepack": "webpack build",
     "coverage": "nyc --reporter=html --reporter=text --reporter=cobertura mocha --require ts-node/register --reporter mocha-junit-reporter **/_suite.ts"
