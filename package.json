@@ -1,6 +1,6 @@
 {
   "name": "@alell/regex-cascade",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Alan S. Ferreira",
   "description": "Cascade multiple and nested Regex expressions.",
   "license": "MIT",
