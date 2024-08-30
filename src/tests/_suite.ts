@@ -1,6 +1,6 @@
 import * as assert from "assert";
-import { cascadeMatch } from "..";
-// import { cascadeMatch } from "../../dist/index";
+// import { cascadeMatch } from "..";
+import { cascadeMatch } from "../../dist/index";
 
 describe("Default Suite", () => {
   after(() => {

@@ -21,9 +21,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     libraryTarget: "commonjs-static",
-    umdNamedDefine: true,
+    umdNamedDefine: false,
   },
-  devtool: "source-map",
+  // devtool: "source-map",
   plugins: [
     new webpack.BannerPlugin(fs.readFileSync("LICENSE", "utf8")),
     new webpack.SourceMapDevToolPlugin({}),

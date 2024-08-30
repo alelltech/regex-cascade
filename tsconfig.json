@@ -1,23 +1,11 @@
-// {
-//   "compilerOptions": {
-//     "outDir": "dist",
-//     "target": "ES6",
-//     "module": "CommonJS",
-//     "sourceMap": false,
-//     "declaration": true
-//   }
-// }
 {
   "compilerOptions": {
-    // "noImplicitAny": true,
     "target": "ES6",
-    // "module": "ES2015",
     "outDir": "./dist",
-    "sourceRoot": "./src/",
+    // "sourceRoot": "./src/",
     "module": "CommonJS",
-    // "target": "es6",
-    "sourceMap": true,
-    // "strict": true,
+    "declaration": true,
+    // "sourceMap": true,
     "strictNullChecks": false,
     "removeComments": true,
     "forceConsistentCasingInFileNames": true

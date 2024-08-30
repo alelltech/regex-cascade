@@ -5,6 +5,12 @@ export type RegExprCascade = {
 };
 export type CascadeResult = { match: RegExpMatchArray; name: any };
 
+/**
+ * Cascade multiple and nested Regex expressions
+ * @param expressions list of cascade regex expressions
+ * @param str input contents to match
+ * @returns
+ */
 export function cascadeMatch(expressions: RegExprCascade[], str: string) {
   const results: CascadeResult[] = [];
   for (const { regex, name, cascade: submatches } of expressions) {
